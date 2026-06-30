@@ -404,7 +404,7 @@ p{
     content: '✓ '; /* Changes the marker content for the first item */
     color: #74C0FC;
   }
-  @media (min-width: 500px) and (max-width: 998px) {
+  @media (min-width: 100px) and (max-width: 998px) {
     .course-category__grid{
         display: grid;
         grid-template-columns: 100%;
