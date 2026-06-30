@@ -1,0 +1,645 @@
+.navbar{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+}
+.heaeder-hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/ch.jpeg');
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* filter:brightness(35%); */
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    /* width: 100vw; */
+    height:90vh;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.section-her{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ height: 90vh;
+}
+.section-her h1{
+    color: white !important;
+    /* filter: brightness(70%); */
+    /* font-family: Momo Signature, cursive;
+    font-weight: 400; */
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 3;
+    font-family: "IBM Plex Mono", monospace;
+}
+.shop-user__inline{
+    margin-right:5%;
+    justify-content: space-around;
+    width: 10%;
+    flex-wrap: nowrap;
+    display: flex;
+}
+.and-class{
+    text-align: center;
+}
+
+.user-circle{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.shopping-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.title-buy{
+    margin-bottom: 40px;
+}
+
+/* START OF SECTION ABOUT US */
+
+.about-us{
+    /* height: 100vh; */
+    background-color: #F5F5F5;
+    padding: 20px;
+    
+}
+.about-us__row{
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+.cheikh-about img{
+    width: 100%;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    display: flex;
+
+}
+.cheikh-about{
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    /* max-width: 40%;
+    min-width: 100%; */
+    width: 400px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+.cheikh-about h1{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    margin: 25px 0px;
+    margin-bottom: 10px;
+}
+
+.cheikh-about h4{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(208, 208, 208);
+}
+.ahmed-about img{
+    width: 100%;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    display: flex
+
+}
+.ahmed-about{
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    /* max-width: 40%;
+    min-width:100%; */
+    width: 400px;
+    padding-top: 25px;
+}
+.ahmed-about h1{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    margin: 25px 0px;
+    margin-bottom: 10px;
+}
+.ahmed-about h4{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(208, 208, 208);
+}
+.col-sm-12 .cheikh-about{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.col-sm-12 .ahmed-about{
+    width: 100%;
+
+}
+.title-about_us{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+    font-weight: 200;
+    /* font-style: normal; */
+    letter-spacing: 2;
+    color: rgb(125, 130, 133);
+}
+.social-media__icon{
+    justify-content: center;
+    width:40% !important ;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row > .social-media__icon-col{
+    width: 30% !important;
+}
+.social-media__icon-col{
+    cursor: pointer;
+}
+/* END OF SECTION ABOUT US */
+
+/* START OF SECTION COURSES */
+.section-course{
+    background-color: white;
+    padding:10px;
+}
+.course-title{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+.course-title p{
+    letter-spacing: 2;
+    margin: 10px 0px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.courses-row{
+    justify-content: space-around;
+}
+.col-math{
+    width: 300px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    /* box-shadow: 11px 10px 8px rgba(0, 0, 0, 0.05);
+     */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     margin-bottom: 20px;
+}
+.row > .col-math{
+    padding-right: 0;
+    padding-left: 0;
+}
+.card-img img{
+    width: 100%;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 198px;
+}
+.card-title h1{
+    margin: 15px 0px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1px 15px 1px 15px;
+    font-size: 25px;
+}
+
+.card-footer{
+    padding:5px 15px ;
+    padding-bottom: 25px;
+}
+.card-footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #74C0FC;
+}
+.card-body{
+    padding: 10px 15px;
+}
+.card-footer__title{
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    padding: 1px 0px 1px 0px;
+    border-bottom: 1px solid black;
+}
+.certificate-icon__row{
+    display: flex;
+    justify-content: space-between;
+}
+.certificate-icon__row span{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+/* END OF SECTION COURSES */
+
+/* START OF TYPE OF CMPETITION  */
+.type-competition{
+    /* height: 100vh; */
+    background-color: #1D546C;
+    padding: 20px;
+}
+.cometition-title h1{
+    text-align: center;
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 0px;
+    margin-bottom: 45px;
+}
+.video-controler{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    width: 980px ;
+    height: 350px;
+    margin:auto;
+}
+.video-youtube{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.video-container{
+    width: 100%;
+}
+.competition-cards{
+    margin: 50px 0px;
+}
+.competition-row{
+    justify-content: space-between;
+}
+.col-mathemati{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: black;
+    margin-bottom: 20px;
+}
+.card-img-2 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+.card-title h1{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    font-style: normal;
+    /* color: black; */
+    margin-bottom: 10px;
+}
+.card-body h4{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+}
+.list-items{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+.list-items li::marker {
+    content: '★ '; /* Changes the marker content for the first item */
+    color: #74C0FC;
+  }
+  .competition-row >.col-sm-12{
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+/* END OF TYPE OF COMPETITION */
+
+/* START OF SECTION CATEGORY */
+.section-courses__category{
+    background-color: rgb(246, 246, 251);
+    /* height: 100vh; */
+    font-family: "IBM Plex Mono", monospace;
+}
+.course-category__grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 30px;
+    padding-top: 60px;
+}
+.big-column{
+ padding: 25px 30px;
+}
+.big-column__title h1{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+.fisrt-column{
+    border-right: 1px solid black;
+}
+.fisrt-column__title h1{
+    font-size:28px;
+    margin-bottom: 30px
+}
+.btn-row{
+    flex-direction: column;  
+}
+.btn-row > .col-lg-12{
+    margin-bottom: 20px;
+}
+.btn-outline{
+    border-radius: 40px ;
+    border: 1px solid #74C0FC;
+    width: 70%;
+    color: #74C0FC;
+    padding: 12px 15px;
+    font-size: 21px;
+    font-family: "IBM Plex Mono", monospace;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+.btn-outline:hover{
+    border:1px solid #74C0FC ;
+}
+.lists-itelms li::marker {
+    content: '✓ '; /* Changes the marker content for the first item */
+    color: #74C0FC;
+  }
+  @media (min-width: 500px) and (max-width: 998px) {
+    .course-category__grid{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+       
+    }
+    .fisrt-column{
+        border-right: none ;
+    }
+    .big-column{
+        /* padding: 25px 30px;
+         */
+         width: 100%;
+         padding-right: 0px;
+         border: 2px solid white;
+       }
+       .big-colum__row >.col-sm-12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .btn-outline{
+        width: 50%;
+       } 
+       .btn-column{
+        display: flex;
+        justify-content: center;
+       }
+       .fisrt-column__title h1{
+        text-align: center;
+       }
+  }
+
+/* END OF SECTION CATEGORY */
+
+/* START OF SECTION PERFUMES */
+.section-perfumes{
+    background-color:#222222;
+    padding: 20px;
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+.perfumes-title h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.carousel-item img{
+    width: 300px;
+    height:400px;
+}
+.buy-perfumes{
+    margin: 35px 0px;
+    color: white;
+    margin-bottom: 45px;
+}
+.perfume-row{
+    justify-content: space-between;
+}
+.perfume-col{
+    margin-bottom: 20px;
+    
+}
+.perfume-col:hover{
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    box-shadow:  8px 2px 10px  rgba(255, 255, 255, 0.2);
+}
+.perfume-card{
+    /* background-color: white; */
+    background-color:#222222;
+    /* color: white; */
+    padding: 10px;
+    border: none;
+}
+/* .perfume-card:hover{
+    border: solid white;
+    box-shadow:  8px 2px 10px  rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+} */
+.card-img img{
+    border-radius: 5px;
+}
+.card-title p{
+    color: white;
+}
+.card-body h6{
+    color: white;
+}
+.cards-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-footer p{
+    color: white;
+    
+}
+.pagination{
+    justify-content: center;
+}
+.pagination li .page-link {
+    background-color: #222222;
+    border: none;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* margin: auto; */
+    color: white;
+    font-size:20px; 
+}
+.pagination li{
+    margin: 0px 20px;
+
+}
+/* END OF SECTION PERFUMES */
+
+/* START OF SECTION DARAAH */
+.secction-darrah{
+    background-color:white;
+    padding: 30px 0px;
+    height: 100vh;
+    font-family: "IBM Plex Mono", monospace;
+    /* font-weight: 400; */
+    font-style: normal;
+
+}
+.section-draah__title{
+    text-align: center;
+}
+.gallery-grid{
+    margin: 40px 0px;
+}
+.gallery-grid__row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    /* grid-template-rows: 200px 150px; */
+    grid-gap: 5px 20px;
+}
+
+/* .grid-col{
+    
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+} */
+
+/* .grid-col:hover{
+    box-shadow:rgba(0, 0, 0, 0.24) 5px 3px 8px ;
+} */
+.grid-col{
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+}
+.text-hover{
+    position: absolute;
+    top: 0 ;
+    bottom: 0 ;
+    left: 0;
+    right: 0;
+    background:  rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+    border-radius: 10px;
+}
+.text-hover{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.grid-col:nth-child(3){
+  grid-row: span 2;
+  
+}
+.grid-col:nth-child(6){
+    grid-row: span 2;
+}
+.grid-col:nth-child(9){
+    grid-row: span 2;
+}
+
+.grid-col img{
+    border-radius: 10px;
+}
+.grid-col{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.grid-col:hover{
+    box-shadow:rgba(0, 0, 0, 0.24) 5px 3px 8px ;
+}
+/* .grid-col img:hover{
+   
+    
+} */
+.grid-col:hover .text-hover{
+    opacity: 1;
+}
+.pagination-darrah li .page-link {
+    background-color: white;
+    color: black;
+}
+.daraah-item__pagination > .page-link{
+    color: black;
+}
+
+/*END OF SECTION DARAAH */
+
+/* START OF SECTION CAROUSEL-VIDEO */
+.video-carousel{
+
+position: relative;
+margin:40px 0px ;
+}
+.carousel-control-prev{
+    color: black;
+}
+.carousel-control-next{
+    color: black;
+}
+/* END OF SETION CAROUSEL */
+/* @media (min-width: 500px) and (max-width: 990) {
+    .shop-user__inline{
+      flex-direction: column !important;
+      height: 150px !important;
+      display: inline-flex !important;
+      flex-wrap: wrap !important;
+    }
+    .row{
+        flex-direction: column !important;
+        height: 150px !important;
+        display: inline-flex !important;
+        flex-wrap: wrap !important;
+    }
+    
+  } */
